@@ -18,17 +18,17 @@ jobs:
     # Steps in Job
     steps:
       - name: Checkout code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       # Install NodeJS
       - name: use Node.js 12.x
-        uses: actions//setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 12.x
       
       # Build the app using cypress
       - name: Cypress run
-        uses: cypress-io/github-action@v1
+        uses: cypress-io/github-action@v4.x.x
         with:
           build: npm run build
           start: npm start
