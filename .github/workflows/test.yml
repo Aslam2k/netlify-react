@@ -28,7 +28,7 @@ jobs:
       
       # Build the app using cypress
       - name: Cypress run
-        uses: cypress-io/github-action@v4.x.x
+        uses: cypress-io/github-action@v4.2.0
         with:
           build: npm run build
           start: npm start
