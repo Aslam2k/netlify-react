@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome! to Escape with Cookie!
+          Welcome to Escape with Cookie
         </p>
         <a
           className="App-link"
@@ -16,6 +16,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Instagram
+        </a>
+        <a
+          className="App-link"
+          href="https://www.linkedin.com/in/oshinit/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          linkedin
         </a>
       </header>
     </div>
